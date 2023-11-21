@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass';
+    background-color: lightgray;
+}
+
+.rating-component {
+    width: 412px;
+    border-radius: 30px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+    margin-top: 30px;
+}
+
+.rating-component .rating-component-star {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(38, 46, 56, 1);
+    padding: 16px;
+}
+
+.rating-component .rating-component-star img {
+    width: 16px;
+    height: 16px;
+}
+
+.rating-component .rating-component-title h1 {
+    color: var(--Pure-White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.rating-component .rating-component-title p {
+    color: var(--Light-Grey, #969FAD);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    margin-bottom: 28px;
+}
+
+.rating-component-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-component-buttons button {
+    width: 51px;
+    height: 51px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(38, 46, 56, 1);
+
+    color: var(--Medium-Gray, #7C8798);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+.submit button {
+    width: 348px;
+    height: 45px;
+    border-radius: 22.5px;
+    background: var(--Pure-White, #FFF);
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+
+    color: var(--Orange, #FC7614);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+}
+.submit button:hover {
+    background: #a19090;
+    color: var(--Orange, #f56b09);
+}
